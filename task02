@@ -25,9 +25,11 @@ int main() {
         } 
         else if (ch == 'u') {
            u++;
-        }   
+        }
+        totalChars++;
     }
 
     printf("a: %d\ne: %d\ni: %d\no: %d\nu: %d\n", a, e, i, o, u);
+    printf("Total characters: %d\n", totalChars);
     return 0;
 }
